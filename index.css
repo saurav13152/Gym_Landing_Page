@@ -55,15 +55,15 @@ body{
    /* width: 220px;*/
 }
 .navbar li{
-    
     display:inline-block ;
     font-size: 15px; 
 }
 .navbar li a{
+    display:inline-block ;
     
     color:rgb(78, 8, 240);
     text-decoration: none;
-    padding:25px 22px;
+    padding:15px 22px;
     font-size: 20px;
 }
 
@@ -71,13 +71,39 @@ body{
     text-decoration: none;
     color: rgb(83, 250, 17);
 }
+p{
+    margin: 82px 572px;
+    font-size: xx-large;
+    font-style: oblique;
+    color: rgb(218, 137, 17);
+    
+}
 
 
 .container{
-    /* border: 2px solid red; */
-    margin: 160px 60px;
-    border: 2px solid #fdfafa;
-    padding: 50px 40px;
-    border-radius: 20px;
-    width: 30%;
+    
+    width: 40%;
+    margin: 91px 20px;
+    border: 2px solid rgb(255, 250, 251);
+    padding: 66px 60px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 270px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 2px solid red;
+}
+.container button{
+    display: block;
+    width: 40%;
+    margin: auto;
+    background-color: blueviolet;
+    font-size: larger;
+
 }
