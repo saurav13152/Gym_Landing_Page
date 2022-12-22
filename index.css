@@ -32,7 +32,7 @@ body{
 }
 .right{
     position: absolute;
-    top:20px;
+    top:34px;
     right: 34px;
     /* border:2px solid rgb(255, 0, 128); */
     display: inline-block;
@@ -72,18 +72,17 @@ body{
     color: rgb(83, 250, 17);
 }
 p{
-    margin: 82px 572px;
+    margin: 82px 468px;
     font-size: xx-large;
     font-style: oblique;
     color: rgb(218, 137, 17);
+    display: inline;
+    font-weight: bold;
     
 }
-
-
-.container{
-    
+.container{   
     width: 40%;
-    margin: 91px 20px;
+    margin: 75px 0px;
     border: 2px solid rgb(255, 250, 251);
     padding: 66px 60px;
     border-radius: 10px;
@@ -93,17 +92,23 @@ p{
 }
 .form-group input{
     text-align: center;
-    display: block;
+    /* display:inline-block; */
     width: 270px;
     padding: 20px;
-    margin: 30px auto;
+    margin: 5px 90px;
     border: 2px solid red;
 }
+
+.radio{
+    margin: 20px;
+    padding: 4px;
+    text-align: center;
+}
+
 .container button{
     display: block;
     width: 40%;
     margin: auto;
     background-color: blueviolet;
     font-size: larger;
-
 }
